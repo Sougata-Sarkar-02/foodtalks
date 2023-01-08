@@ -1,0 +1,75 @@
+body {
+    width: 100%;
+}
+
+/* navigation section  */
+#navbar {
+    flex-direction: column;
+}
+
+#navbar .item {
+    padding: 0px 8px;
+    font-size: 1rem;
+}
+
+#navbar .extra {
+    text-align: center;
+
+}
+
+/* home section  */
+#home {
+    padding: 0px 20px;
+    height: 551px;
+
+}
+
+#home::before {
+    height: 550px;
+}
+
+#h-para {
+    font-size: 10px;
+}
+
+/* sercices section  */
+#services {}
+
+.services {
+    flex-direction: column;
+}
+
+#services .box {
+    margin-bottom: 5px;
+}
+
+/* aly section */
+#aly {
+    overflow: hidden;
+}
+
+#allies {
+    flex-direction: column;
+}
+
+.aly-item {
+    margin-bottom: 8px;
+}
+
+/* contact section */
+#contact {}
+
+#contact #submit {
+    font-size: 13px;
+    /* padding: 2%; */
+    width: 35%;
+    margin-top: 2%;
+}
+
+/* footer */
+footer {}
+
+/* utility  */
+.h-primary {
+    font-size: 28px;
+}
